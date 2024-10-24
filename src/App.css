@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.containee {
+    max-width: 800px; /* Set the width of the page (adjust to your liking) */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds padding inside the container */
+    background-color: #fff; /* White background for the content area */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    border-radius: 8px; /* Optional: Rounded corners */
+  }
+
+  .header h2 {
+    position: relative;    /* Relative positioning for the underline */
+    text-align: center;
+  }
+  
+  .header h2::after {
+    content: ''; /* This is the line that appears below */
+    position: absolute;
+    left: 45%;    /* Position the line at the start */
+    bottom: -8px; /* Position the line a little below the text */
+    width: 18%; /* Makes the underline cover 50% of the width */
+    height: 2.5px; /* Thickness of the line */
+    background-color: #f78da7; /* Color of the underline */
+  }
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
